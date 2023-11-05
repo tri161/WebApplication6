@@ -1,0 +1,63 @@
+﻿body {
+    background-color: #e6e6e6;
+    width: 100%;
+    margin: 0;
+}
+.menu {
+    display: grid;
+    grid-template-rows:80%;
+    justify-content: center;
+}
+.board {
+    background-color: white;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 20px 0;
+    width: 30%;
+    border-radius: 10px;
+}
+.board h1 {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+}
+.board p span{
+    padding-right: 5px;
+    font-weight: bolder;
+    margin: 0px;
+    font-style:float;
+ }
+.board p  {
+    margin:0px;
+}
+.product {
+    padding: 5px 5px 5px 35px;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(235,235,235);
+}
+.product h1 {
+    font-size: 20px
+}
+.product p {
+    color:grey;
+}
+a:link {
+    text-decoration: none;
+}
+.button {
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 25px;
+    height: 70px;
+}
+.button button {
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    background: rgb(1,100,204);
+}
